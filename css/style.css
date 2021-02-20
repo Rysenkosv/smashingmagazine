@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 700 14px/1.4 "Trebuchet MS", sans-serif;
+  color: black;
+  background-color: #f5f4ef;
+  margin: 0;
+}
+
+a {
+  color: #c74350;
+}
+
+a:hover,
+a:focus {
+  color: #fff;
+  background-color: #c74350;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px;
+}
+
+/* a:visited {
+  color: #992298;
+} */
+
+.ba-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 2px solid red;
+}
+
+.ba-logo {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.ba-logo-sub {
+  display: block;
+  font-size: 20px;
+}
+
+.ba-logo:hover,
+.ba-logo:focus {
+  background: none;
+  color: #c74350;
+}
+
+.ba-section {
+  background: #fff;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.ba-section + .ba-section {
+  margin-top: 30px;
+}
+
+article > p:last-child {
+  margin-bottom: 0;
+}
+
+.ba-featured-title {
+  color: #c74350;
+  margin: 0;
+  font-size: 23px;
+}
+
+.ba-featured-artical-title {
+  font-size: 20px;
+}
+
+.ba-featured-artical-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ba-featured-artical-title a:hover {
+  color: #fff;
+}
+
+.ba-post + .ba-post {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.ba-post-title {
+  margin: 0;
+}
+.ba-post-title {
+  text-decoration: none;
+}
+
+.ba-blogroll {
+  padding: 0;
+  margin: 0 0 auto;
+  list-style: none;
+  max-width: 200px;
+}
+
+.ba-blogroll a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+.ba-blogroll li {
+  border-bottom: 1px solid #ccc;
+}
+
+.ba-blogroll a:hover {
+  color: #fff;
+}
+.ba-footer {
+  font-size: 0;
+}
+
+.ba-footer-left,
+.ba-footer-right {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.ba-footer-right {
+  width: 60%;
+}
+
+.ba-footer-left {
+  width: 40%;
+}
